@@ -1,6 +1,6 @@
 name: CI
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   eslint:
@@ -37,4 +37,5 @@ jobs:
           node-version: 20.11.0
           cache: 'npm'
       - run: npm ci
+      - run: echo "${{secrets.ENV_FILE}}" >> .env
       - run: npm test
