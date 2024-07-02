@@ -1,46 +1,45 @@
 // @ts-check
 import { expect } from '@playwright/test'
+import { BasicPage } from './BasicPage'
 
-export function AuthPage({ page }) {
-  const visit = async () => {
-    await page.goto('/register')
-    await expect(page.locator('h1')).toHaveText('Sign up')
+export class AuthPage extends BasicPage {
+  url = '/register'
+
+  constructor({ page }) {
+    super({ page })
+
+    this.fieldUsername = page.getByTestId('input-username')
+    this.fieldEmail = page.getByTestId('input-email')
+    this.fieldPassword = page.getByTestId('input-password')
+    this.btnSubmit = page.getByTestId('btn-submit')
   }
 
-  const fillUsername = async username => {
-    await page.getByTestId('input-username').fill(username)
+  async visit () {
+    await super.visit()
+    await expect(this.page.locator('h1')).toHaveText('Sign up')
   }
 
-  // const getUsernameError = async () => {
-  //   return await page.locator()
-  // }
-
-  const fillEmail = async email => {
-    await page.getByTestId('input-email').fill(email)
+  async fillUsername (username) {
+    await this.fieldUsername.fill(username)
   }
 
-  const fillPassword = async password => {
-    await page.getByTestId('input-password').fill(password)
+  async fillEmail (email) {
+    await this.fieldEmail.fill(email)
   }
 
-  const submitForm = async () => {
-    await page.getByTestId('btn-submit').click()
+  async fillPassword (password) {
+    await this.fieldPassword.fill(password)
   }
 
-  const reg = async ({ username, email, password }) => {
-    await visit()
-    await fillUsername(username)
-    await fillEmail(email)
-    await fillPassword(password)
-    await submitForm()
+  async submitForm () {
+    await this.btnSubmit.click()
   }
 
-  return {
-    visit,
-    fillUsername,
-    fillPassword,
-    fillEmail,
-    submitForm,
-    reg,
+  async reg ({ username, email, password }) {
+      await this.visit()
+      await this.fillUsername(username)
+      await this.fillEmail(email)
+      await this.fillPassword(password)
+      await this.submitForm()
   }
 }
