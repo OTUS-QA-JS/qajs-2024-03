@@ -8,8 +8,11 @@ describe('Авторизация', () => {
       password: config.password,
     })
     expect(response.status).toBe(200)
-    expect(response.data.result).toBe('User authorized successfully.')
-    expect(response.data.token).toBeDefined()
+    expect(response.data).toMatchObject({
+      result: 'User authorized successfully.',
+      expires: expect.any(String),
+      token: expect.any(String),
+    })
   })
 
   it('Нельзя авторизоваться без пароля', async () => {
