@@ -144,12 +144,6 @@ const config = {
   // A list of paths to snapshot serializer modules Jest should use for snapshot testing
   // snapshotSerializers: [],
 
-  // The test environment that will be used for testing
-  // testEnvironment: "jest-environment-node",
-
-  // Options that will be passed to the testEnvironment
-  // testEnvironmentOptions: {},
-
   // Adds a location field to test results
   // testLocationInResults: false,
 
@@ -189,6 +183,24 @@ const config = {
 
   // Whether to use watchman for file crawling
   // watchman: true,
+
+  reporters: [
+    'default',
+    [
+      'jest-html-reporters',
+      {
+        publicPath: './reports/html-report',
+        filename: 'index.html',
+        openReport: !!process.env.CI,
+      },
+    ],
+  ],
+
+  testEnvironment: 'allure-jest/node',
+}
+
+if (process.env.CI) {
+  config.reporters.push(['github-actions', { silent: false }])
 }
 
 module.exports = config
