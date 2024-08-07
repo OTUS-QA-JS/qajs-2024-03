@@ -10,7 +10,7 @@ describe('Auth', () => {
       password: config.password,
     })
 
-    expect(response.status).toEqual(200)
+    expect(response.status).toEqual(201)
     expect(response.data.username).toBe(config.username)
     expect(response.data.token).toBeTruthy()
   })
