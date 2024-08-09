@@ -1,0 +1,774 @@
+[33mcommit deaab85b7319f5151d00ac99f4a8af8f6a46bdb0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mlesson/playwright[m[33m, [m[1;31morigin/lesson/playwright[m[33m)[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Wed Jul 10 19:00:40 2024 +0300
+
+            modified:   jest.config.js
+            modified:   package-lock.json
+            modified:   package.json
+            modified:   yarn.lock
+
+[33mcommit acc5a2439fe6ac712c55a57d450cea0cc710aec1[m
+Merge: 77bc530 1f0de73
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Wed Jul 10 18:51:13 2024 +0300
+
+    Merge branch 'lesson/playwright' of https://github.com/Yubelik/qajs-2024-03 into lesson/playwright
+
+[33mcommit 77bc530548563bdd896c5bd0a894ee10d7afdfb0[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Mon Jul 8 20:08:23 2024 +0300
+
+    Прошу проверить ДЗ
+
+[33mcommit 8e9fa2ae62ffb83061d90344c4c4c1a353b2bdda[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Fri Jun 28 18:03:21 2024 +0300
+
+    Прошу проверить ДЗ
+
+[33mcommit 35398099e20a6c620939281e4da745d854dc0eb1[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Fri Jun 28 16:04:04 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit f49cc032707798e567146c407d4a0efce05398a0[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:30:14 2024 +0300
+
+    Update full-test.js.yml
+
+[33mcommit d130cd20a1259d682682a09294befb8122a2cc53[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Fri Jun 28 12:35:15 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+            modified:   .github/workflows/static.yml
+
+[33mcommit ae84b8a075d99dbac73673872d1a901971e24f96[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:18:06 2024 +0300
+
+    Create static.yml
+
+[33mcommit 58742913288420c63c5eef78ff0b51b6198b895b[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:19:09 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit 3268e31eb8b670e8b29689b88677fbfc2b97633b[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:11:01 2024 +0300
+
+    Delete .github/workflows/jekyll-gh-pages.yml
+
+[33mcommit d5b7fe0d114c5a1c73e55028a53c1e3b6e7f1aac[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:13:58 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit 334968b74b49486a34da59154adb5664907e1b80[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:00:25 2024 +0300
+
+    Update gh-pages.yml
+
+[33mcommit 8b03ec22ce8b8fbeef6e71c3ce37a19a094a062f[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 22:54:12 2024 +0300
+
+    Create jekyll-gh-pages.yml
+
+[33mcommit dfcddf09345cb940eb0103609ac62efa9333140f[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:07:06 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit 309b713befc208e2842cd5d320e0194380c43f26[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 22:45:46 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit e53c89792cc63e61d0fb6e42003d3343be09c844[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 22:24:50 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit d255f6e1bb6d27e4063571da2c7452c4eb97569f[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 22:21:31 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit c84b4d466d7f6ab46dec43e22c27b97ccd033650[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 22:18:25 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit 76750f3ed6917d3590ad294f631ef4ac449c628b[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:43:47 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit 59f89053b7418f103dade24cec11ccdf9c6d4150[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:39:18 2024 +0300
+
+            modified:   tests/auth.test.js
+
+[33mcommit fab3b9cc9c09ba0be1d78f6d50b5c9d30e085bff[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:33:13 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit 602b7c034db2880b20b79dfd7ace48781caed2a9[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:31:38 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit 3eff07e2d0d10f0e2dfafaf54537af78c261c9cf[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:28:30 2024 +0300
+
+    app Report
+
+[33mcommit 317b744f2c8fa036618f6540289a74ae921451df[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:24:48 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit 41acae438abdd44aee847c5a89c27eb8ff0be389[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:23:23 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit b74a65d50470184b43f16de86d6d450bf8ad5263[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:20:58 2024 +0300
+
+    Полный тест
+
+[33mcommit 0b0ca2a293040330a5b5c1a770986110bdc086b8[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:13:30 2024 +0300
+
+    Update node.js.yml
+
+[33mcommit 39082150dd2cca896ecfe0691f62a49b5f7bfd0f[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:10:12 2024 +0300
+
+            modified:   tests/api.test.js
+
+[33mcommit a4b0a538a91905ed80e9ad75d13bf49e6fdf3216[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:03:13 2024 +0300
+
+            modified:   tests/api.test.js
+
+[33mcommit 186db23a016b490c58f722aafa86eb0920d14b7c[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 20:41:12 2024 +0300
+
+            modified:   .gitignore
+
+[33mcommit 86d581e84baa79af73aa340efb1abd8467d9170b[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 20:40:53 2024 +0300
+
+            new file:   .env
+
+[33mcommit b6bcfec38292f1f1b5d4b08a85da48c4b38cab61[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 20:39:51 2024 +0300
+
+    Update node.js.yml
+
+[33mcommit 3904c7a3215b59f0e7b62a8dc55231a4025af285[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 20:31:51 2024 +0300
+
+    Create node.js.yml
+
+[33mcommit 0db3de327c26783d8c94877a5758557a8c43506d[m
+Author: yubelik <yubelik@mail.ru>
+Date:   Wed May 29 08:43:45 2024 +0300
+
+    test
+
+[33mcommit de52c430c6477910ea8532c44079da6b76cece5f[m
+Author: yubelik <yubelik@mail.ru>
+Date:   Wed May 29 08:23:48 2024 +0300
+
+            new file:   babel.config.json
+            modified:   jest.config.js
+            modified:   package-lock.json
+            modified:   package.json
+            deleted:    tests/api.test.lib.js
+
+[33mcommit 15fea5cbcdc70b2e036013916c56273e3604cb26[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Tue May 28 18:03:14 2024 +0300
+
+            new file:   tests/api.test.lib.js
+
+[33mcommit ae9d520af17f9b62cb4267f983d230501094269e[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Mon May 27 18:33:34 2024 +0300
+
+    :wq
+
+[33mcommit aecd4c6b952490f426831750c7ef041aefdb1cb2[m
+Author: Tatiana Berezentseva <vivalatanya@gmail.com>
+Date:   Sun Apr 14 05:36:02 2024 +0300
+
+    Основы JS - типы
+
+[33mcommit 1f0de733601462c6261f9f0dfbefc26662892f6a[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Mon Jul 8 20:08:23 2024 +0300
+
+    Прошу проверить ДЗ
+
+[33mcommit 5054c9e96660a8fbf70966bb9e017997bd56675e[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Fri Jun 28 18:03:21 2024 +0300
+
+    Прошу проверить ДЗ
+
+[33mcommit 6ee0f544d453d769d180931010ef5c0fda1046e1[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Fri Jun 28 16:04:04 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit 99661b66168c84c47b75f65b23ae256edd46a120[m
+Merge: fac8693 9f63920
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Fri Jun 28 12:37:08 2024 +0300
+
+    Merge branch 'master' of https://github.com/Yubelik/qajs-2024-03
+
+[33mcommit fac8693ef8ea7c5d6f0e7ded2cd65cfc646006bb[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Fri Jun 28 12:35:15 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+            modified:   .github/workflows/static.yml
+
+[33mcommit 9f63920d7d8e4b0442c0a7f2556c39df065ba1f2[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:30:14 2024 +0300
+
+    Update full-test.js.yml
+
+[33mcommit d0501c406b68a7f040a638df59eef7683c3b0b5d[m
+Merge: 9497a51 74e5db6
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:19:18 2024 +0300
+
+    Merge branch 'master' of https://github.com/Yubelik/qajs-2024-03
+
+[33mcommit 9497a514f882e9ae5a5eb546b33dc982591f9c01[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:19:09 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit 74e5db67917dab2b1e61000a2491dc5c5c81a509[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:18:06 2024 +0300
+
+    Create static.yml
+
+[33mcommit 5a890a34c35294784bb0aabc01e71740842ffc26[m
+Merge: 03cd54c 79fe07a
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:14:05 2024 +0300
+
+    Merge branch 'master' of https://github.com/Yubelik/qajs-2024-03
+
+[33mcommit 03cd54ca8f460ab7b7ae8ae4c4b0c0d69cb31040[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:13:58 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit 79fe07a76169b9ddfbf90ebb6d8733fb5e8e7d61[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:11:01 2024 +0300
+
+    Delete .github/workflows/jekyll-gh-pages.yml
+
+[33mcommit 04347dd3a16d866962c8596d3efe8351cb0c8ad4[m
+Merge: 503d31d a376814
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:07:13 2024 +0300
+
+    Merge branch 'master' of https://github.com/Yubelik/qajs-2024-03
+
+[33mcommit 503d31d65998da9b8df7518ae78bd81736bb1fbd[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:07:06 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit a376814556beb79eb1f7cc1dbae9ed133111f7b6[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 23:00:25 2024 +0300
+
+    Update gh-pages.yml
+
+[33mcommit 2643e2f6ae6f3c380e53b82341b845b94f28f2e7[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 22:54:12 2024 +0300
+
+    Create jekyll-gh-pages.yml
+
+[33mcommit 8e273e4a2d605fb0d8d624d170474ca4d045d4b9[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 22:45:46 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit 9177b08b8b435631552f7f250e10db46a078764c[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 22:24:50 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit 6ead0e000fc7ce6968a743b8a969e12197eb701c[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 22:21:31 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit 813cf38c05d6cdaddb208d30e8390abcab97a6d7[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 22:18:25 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit e3f106e39fc136c9d5fac456ec8be752e204a6cd[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:43:47 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit 7b7e647e191f09703b8dd19eecea8a740879c480[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:39:18 2024 +0300
+
+            modified:   tests/auth.test.js
+
+[33mcommit 28c77c2617073d2138daebc6c889434325ded5d6[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:36:42 2024 +0300
+
+            modified:   jest.config.js
+
+[33mcommit f48eca0e7a604366be7af5b99c268968374b9c40[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:33:13 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit ec0ba4d4480fd569393ecf9a7428b21e96394825[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:31:38 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit adcf1215a6016a88aacf6fe11a09c8095b4b3771[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:28:30 2024 +0300
+
+    app Report
+
+[33mcommit dd06b2a5f857191763fd55f5c42e67d3d583a9da[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:24:48 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit b59057e507007a139ec1dc88f87b85df42d6b12f[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:23:23 2024 +0300
+
+            modified:   .github/workflows/full-test.js.yml
+
+[33mcommit b32481a838fc05e3ad87fdfaa1f4c7ddcdff1685[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:20:58 2024 +0300
+
+    Полный тест
+
+[33mcommit afa975918fcd93b68b81441d2f8ff9e53ae2b78f[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:13:30 2024 +0300
+
+    Update node.js.yml
+
+[33mcommit 704f6f5820548cdb8925928c8223069793d4725a[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:10:12 2024 +0300
+
+            modified:   tests/api.test.js
+
+[33mcommit b922fed6d9497a9112880dcd62479999e4a3df3c[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 21:03:13 2024 +0300
+
+            modified:   tests/api.test.js
+
+[33mcommit bb4172e20f8edb6c1634f08dd4e66822cd46ef6a[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 20:41:12 2024 +0300
+
+            modified:   .gitignore
+
+[33mcommit 16070e7ed96747b15f2b7c43ed071631547f7b9f[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 20:40:53 2024 +0300
+
+            new file:   .env
+
+[33mcommit 8da67ec23dd79c02fd264d445d8a0ccf4ea8d933[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 20:39:51 2024 +0300
+
+    Update node.js.yml
+
+[33mcommit 1df9c36e4a85a2671f7d801d9566c25eb8afb1b1[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 27 20:31:51 2024 +0300
+
+    Create node.js.yml
+
+[33mcommit 28763c5d6f5334d3763115f1167f854bc2cae175[m[33m ([m[1;32mlesson/template-testing[m[33m)[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Wed Jun 26 18:08:28 2024 +0300
+
+    Прошу проверить ДЗ
+
+[33mcommit fe77821a7a5aded72311ad0392247cb06ae4d131[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Wed Jun 19 16:13:24 2024 +0300
+
+    Прошу проверить ДЗ
+
+[33mcommit 2ec1719d93c81b651aa373541d06dac2cbab4f5a[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Wed Jun 19 13:27:26 2024 +0300
+
+    Прошу посмотреть и направить на путь.
+
+[33mcommit c7282368d14140a37125bf9d94f27f98430ed3e1[m
+Merge: f31147c 2ef0eb7
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Wed Jun 19 13:06:50 2024 +0300
+
+    Merge branch 'lesson/template-testing' of https://github.com/Yubelik/qajs-2024-03 into lesson/template-testing
+
+[33mcommit f31147c3590029d396b0b3a977330b7d0ad1be51[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Wed Jun 19 13:06:16 2024 +0300
+
+            modified:   tests/a.book.test.js
+
+[33mcommit 2ef0eb762d6f2245096627b3c71684544bcdf053[m
+Author: yubelik <yubelik@mail.ru>
+Date:   Wed Jun 19 09:37:00 2024 +0300
+
+            modified:   framework/config/config.js
+            modified:   framework/services/UserBookService.js
+            modified:   tests/a.book.test.js
+
+[33mcommit bc74aaa8be8d298ed141a5b7bdbe0eb18c601d05[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Tue Jun 18 19:24:46 2024 +0300
+
+            modified:   framework/services/BookService.js
+            new file:   framework/services/UserBookService.js
+            modified:   tests/a.book.test.js
+
+[33mcommit 062a172998bdd680b6df2a6c8edc2d5abb91baa7[m
+Author: yubelik <yubelik@mail.ru>
+Date:   Tue Jun 18 09:55:01 2024 +0300
+
+            modified:   jest.config.js
+            renamed:    tests/books.test.js -> tests/a.book.test.js
+
+[33mcommit 429355222a915c3a6c1d54f8348f0e634d0c95a4[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Mon Jun 17 19:59:00 2024 +0300
+
+            new file:   framework/fixtures/books.json
+            modified:   framework/services/BookService.js
+            modified:   jest.config.js
+            modified:   package.json
+            deleted:    tests/api.test.lib.js
+            new file:   tests/auth.test.back.js
+            deleted:    tests/auth.test.js
+            deleted:    tests/auth.test.old.js
+            new file:   tests/books.test.js
+
+[33mcommit 8649bef4bf43cf79b39f9a73b2d68307b2cb91ba[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Mon Jun 17 19:58:19 2024 +0300
+
+            modified:   tests/auth.test.js
+            modified:   framework/services/BookService.js
+            modified:   jest.config.js
+            modified:   package.json
+            deleted:    tests/api.test.lib.js
+            deleted:    tests/auth.test.js
+            deleted:    tests/auth.test.old.js
+            framework/fixtures/books.json
+            tests/auth.test.back.js
+            tests/books.test.js
+
+[33mcommit 9d898e8f74c74a191c1023ca35ab20132979fb7a[m
+Author: yubelik <yubelik@mail.ru>
+Date:   Sun Jun 16 16:32:46 2024 +0300
+
+            modified:   framework/services/AuthService.js
+            modified:   framework/services/BookService.js
+            modified:   tests/auth.test.js
+
+[33mcommit 1b2ecfc00258de42150afbc95a96f6fd40fad900[m
+Merge: 022c80b 104cd87
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Fri Jun 14 12:31:57 2024 +0300
+
+    Merge branch 'lesson/template-testing' of https://github.com/Yubelik/qajs-2024-03 into lesson/template-testing
+
+[33mcommit 022c80bdf4addba33054ed600c5d948ce211ca1b[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu Jun 13 18:32:41 2024 +0300
+
+            new file:   framework/config/index.js
+            new file:   framework/index.js
+            modified:   framework/services/AuthService.js
+            new file:   framework/services/BookService.js
+            new file:   framework/services/index.js
+            modified:   tests/auth.test.js
+
+[33mcommit 104cd87b723f6845cedf392693ed0a6923e37dbd[m
+Author: yubelik <yubelik@mail.ru>
+Date:   Sat Jun 8 01:43:31 2024 +0300
+
+            modified:   framework/config/config.js
+            modified:   framework/services/AuthService.js
+            modified:   tests/auth.test.js
+
+[33mcommit e446e09782b86cc947d67b016876102f0a690ba4[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Fri Jun 7 21:37:40 2024 +0300
+
+            modified:   package-lock.json
+            modified:   package.json
+            modified:   tests/auth.test.js
+            modified:   yarn.lock
+
+[33mcommit 9de4bf95e9172306180c0a40c8b460c7d3595b5c[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Wed Jun 5 19:42:14 2024 +0300
+
+            modified:   framework/fixtures/userFixture.js
+            modified:   tests/api.test.js
+            modified:   tests/auth.test.js
+
+[33mcommit ed4b88fced031a49a57f12a8fb374f05daf8cb2b[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Tue Jun 4 18:38:11 2024 +0300
+
+            new file:   .env.example
+            modified:   .gitignore
+            modified:   framework/config/config.js
+            new file:   framework/fixtures/index.js
+            new file:   framework/fixtures/userFixture.js
+            modified:   framework/services/AuthService.js
+            modified:   package-lock.json
+            modified:   package.json
+            modified:   tests/auth.test.js
+            modified:   yarn.lock
+
+[33mcommit 5270a9b6df711554d9d31e9ac1999210ea6f611b[m[33m ([m[1;31morigin/lesson/testing-library[m[33m, [m[1;32mlesson/testing-library[m[33m)[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Mon Jun 3 20:01:06 2024 +0300
+
+    Прошу проверить ДЗ
+
+[33mcommit 64119dd13ba16877d71f64b8be447b6e591c06f9[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Fri May 31 10:01:35 2024 +0300
+
+    Прошу проверить ДЗ
+
+[33mcommit 8839ff1ea8815f81518548a8c50d54cd4da72766[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu May 30 18:17:22 2024 +0300
+
+    ЗД
+
+[33mcommit f13a4863531d763a667ce5712f91793b8e5c0d56[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Wed May 29 17:56:32 2024 +0300
+
+            modified:   framework/services/AuthService.js
+            modified:   tests/auth.test.js
+
+[33mcommit 43a541f44dadb687511c524ac8520691aa243cf4[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Wed May 29 17:54:30 2024 +0300
+
+            modified:   bable.config.js
+            modified:   framework/config/config.js
+            modified:   framework/services/AuthService.js
+            modified:   package-lock.json
+            modified:   package.json
+            modified:   tests/auth.test.js
+            modified:   yarn.lock
+
+[33mcommit 202a9d11e34b7ee50c29b06921d95ab6c3df6e5d[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Wed May 29 17:17:23 2024 +0300
+
+    Error
+
+[33mcommit fdfdc97fa74a59dbd700045729f6a72b70bb2a38[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Wed May 29 10:59:25 2024 +0300
+
+            modified:   package.json
+
+[33mcommit 59c6e78efd43361dc34514e6021e1f1f78803be9[m[33m ([m[1;32mmaster[m[33m)[m
+Author: yubelik <yubelik@mail.ru>
+Date:   Wed May 29 08:43:45 2024 +0300
+
+    test
+
+[33mcommit cbb782ea4600f7860dfa2f64588073d23b0cfbbb[m
+Author: yubelik <yubelik@mail.ru>
+Date:   Wed May 29 08:23:48 2024 +0300
+
+            new file:   babel.config.json
+            modified:   jest.config.js
+            modified:   package-lock.json
+            modified:   package.json
+            deleted:    tests/api.test.lib.js
+
+[33mcommit 1cdc396160a5a448e014594c42601b242b85f947[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Tue May 28 18:03:14 2024 +0300
+
+            new file:   tests/api.test.lib.js
+
+[33mcommit 06232b74546b8314bcc6d525be07be8a1c3efdae[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Mon May 27 20:23:42 2024 +0300
+
+            renamed:    framework/services/AuthService.mjs -> framework/services/AuthService.js
+            modified:   jest.config.js
+            modified:   package-lock.json
+            modified:   package.json
+            modified:   tests/auth.test.js
+            new file:   yarn.lock
+
+[33mcommit 5762bab2034c0f2d7e06ea399b1c3696768bb7d7[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Mon May 27 18:33:34 2024 +0300
+
+    :wq
+
+[33mcommit 5ae3fbc547a617f6253ac9565ef3f2ed97768bfb[m
+Merge: 29d2302 f054277
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Mon May 27 18:18:45 2024 +0300
+
+    Merge branch 'lesson/obj_arr'
+
+[33mcommit 29d2302496b45218142d66bc3444064e1e48a415[m
+Merge: 608efa3 1c0fcf6
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Mon May 27 17:22:44 2024 +0300
+
+    Merge remote-tracking branch 'origin/Основы-JS.-Функции'
+
+[33mcommit 264f40ca73767194caa4aa1c41c806f0a268f21b[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Mon May 27 16:26:05 2024 +0300
+
+    Ошибка
+
+[33mcommit b941ff8e67088964ceb73f263c14bdbd2f0e7626[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Mon May 27 14:17:15 2024 +0300
+
+    Ошибка
+
+[33mcommit dea9911af444131f7fd30ba24d22c769527ba5f8[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Fri May 24 15:50:03 2024 +0300
+
+    Ошибка " SyntaxError: Cannot use import statement outside a module"
+
+[33mcommit f054277846dd04090241d7b08ca0ac166b330861[m[33m ([m[1;31morigin/lesson/obj_arr[m[33m)[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Mon May 20 18:01:31 2024 +0300
+
+    Прошу проверить ДЗ
+
+[33mcommit 608efa3740993cce43b4bcd6076f8eb05878bf10[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Thu May 16 15:03:04 2024 +0300
+
+    Прошу проверить ДЗ
+
+[33mcommit 6524ae912fdbf299f38b80953aa34d76676d3834[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Tue Apr 16 12:08:48 2024 +0300
+
+    Delete src/main.js
+
+[33mcommit 04ad700d8560eb28c713290e306155126621ad80[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Tue Apr 16 12:08:40 2024 +0300
+
+    Delete src/module.js
+
+[33mcommit 71d02ff80b21004411fec0b8f0d7d83081e89c0f[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Tue Apr 16 12:08:27 2024 +0300
+
+    Delete src/type.js
+
+[33mcommit becfc187539144bace9490e6370e356071b1f7ca[m
+Author: Yubelik <89403380+Yubelik@users.noreply.github.com>
+Date:   Tue Apr 16 11:51:38 2024 +0300
+
+    Домашнее задание по "Основы JS. Функции "
+
+[33mcommit 1c0fcf633d42c13b18436df9c2b494faf2e6043e[m[33m ([m[1;31morigin/Основы-JS.-Функции[m[33m)[m
+Author: Tatiana Berezentseva <vivalatanya@gmail.com>
+Date:   Sun Apr 14 05:36:02 2024 +0300
+
+    Основы JS - типы
+
+[33mcommit 6feb49e401cc62de12053aa5d56997316a78b63b[m
+Author: Damir Rysaev <freepad@ya.ru>
+Date:   Wed Apr 3 17:09:39 2024 +0300
+
+    init

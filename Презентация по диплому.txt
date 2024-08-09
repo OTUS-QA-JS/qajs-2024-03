@@ -1,0 +1,10 @@
+npm codeceptjs init - создание конфигурационного файла
+
+npm i codeceptjs --save-dev - установка пакета
+
+npx codeceptjs gt - создение нового теста
+
+Для запуска api тестов jest перейти в папку с тестами cd ./tests/
+
+npm test .\auth.test.js - запуск теста
+
