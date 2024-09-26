@@ -21,7 +21,8 @@
     "test:e2e:ci": "playwright test",
     "test:e2e:trace": "playwright test --trace on",
     "test:e2e:slow": "cross-env PLAYWRIGHT_SLOW_MO=1000 playwright test --headed",
-    "test:e2e:show": "playwright show-report"
+    "test:e2e:show": "playwright show-report",
+    "test:cypress:dev": "cypress open"
   },
   "author": "Damir Rysaev <freepad@ya.ru>",
   "keywords": [],
@@ -40,6 +41,7 @@
     "allure-jest": "^2.15.1",
     "axios": "^1.6.8",
     "cross-env": "^7.0.3",
+    "cypress": "^13.15.0",
     "dotenv": "^16.4.5",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
