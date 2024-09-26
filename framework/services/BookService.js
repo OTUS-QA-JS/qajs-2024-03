@@ -13,3 +13,16 @@ const getBooks = async () => {
 export default {
   getAll: getBooks,
 }
+
+// export default class BookService {
+//   static async getAll () {
+//     const response = await supertest(config.baseURL).get('/BookStore/v1/Books')
+//     return {
+//       headers: response.headers,
+//       status: response.status,
+//       data: response.body,
+//     }
+//   }
+// }
+
+// BookService.getAll

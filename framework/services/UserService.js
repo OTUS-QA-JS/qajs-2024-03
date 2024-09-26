@@ -7,61 +7,65 @@ const client = axios.create({
   validateStatus: () => true,
 })
 
-const getUser = async ({ userId, token }) => {
-  const response = await client.get(`/Account/v1/User/${userId}`, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-    },
-  })
-
-  return {
-    headers: response.headers,
-    status: response.status,
-    data: response.data,
+export default class UserService {
+  constructor(token) {
+    this.token = token
   }
-}
 
-const createUser = async ({ userName, password }) => {
-  const response = await client.post(`/Account/v1/User`, {
-    userName,
-    password,
-  })
-
-  /**
-   * ВАЖНО! Это сделано для примера отправки уведомлений в телеграм из тестов..
-   * Отправять что-то из тестов куда-то не рекоммендую,
-   * кроме тех случаев, когда это мб вам необходимо
-   */
-  await TelegramService.sendMessage(
-    `Создан новый пользователь: \r\n` +
-      `username: ${userName} \r\n` +
-      `password: ${password} \r\n` +
-      `userId: ${response.data.userID}`,
-  )
-
-  return {
-    headers: response.headers,
-    status: response.status,
-    data: response.data,
+  replaceToken(token) {
+    this.token = token
   }
-}
 
-const removeUser = async ({ userId, token }) => {
-  const response = await client.delete(`/Account/v1/User/${userId}`, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-    },
-  })
+  async get(userId) {
+    const response = await client.get(`/Account/v1/User/${userId}`, {
+      headers: {
+        Authorization: `Bearer ${this.token}`,
+      },
+    })
 
-  return {
-    headers: response.headers,
-    status: response.status,
-    data: response.data,
+    return {
+      headers: response.headers,
+      status: response.status,
+      data: response.data,
+    }
   }
-}
 
-export default {
-  get: getUser,
-  create: createUser,
-  remove: removeUser,
+  async create({ userName, password }) {
+    const response = await client.post(`/Account/v1/User`, {
+      userName,
+      password,
+    })
+
+    /**
+     * ВАЖНО! Это сделано для примера отправки уведомлений в телеграм из тестов..
+     * Отправять что-то из тестов куда-то не рекоммендую,
+     * кроме тех случаев, когда это мб вам необходимо
+     */
+    await TelegramService.sendMessage(
+      `Создан новый пользователь: \r\n` +
+        `username: ${userName} \r\n` +
+        `password: ${password} \r\n` +
+        `userId: ${response.data.userID}`,
+    )
+
+    return {
+      headers: response.headers,
+      status: response.status,
+      data: response.data,
+    }
+  }
+
+  async remove(userId) {
+    const response = await client.delete(`/Account/v1/User/${userId}`, {
+      headers: {
+        Authorization: `Bearer ${this.token}`,
+      },
+    })
+
+    return {
+      headers: response.headers,
+      status: response.status,
+      data: response.data,
+    }
+  }
 }
