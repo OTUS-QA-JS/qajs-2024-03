@@ -2,7 +2,10 @@ module.exports = {
   env: {
     es2021: true,
     node: true,
-    'jest/globals': true,
+    'jest/globals': true
+  },
+  globals: {
+    cy: true
   },
   extends: ['standard', 'prettier'],
   overrides: [

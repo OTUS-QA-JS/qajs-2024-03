@@ -21,7 +21,8 @@
     "test:e2e:ci": "playwright test",
     "test:e2e:trace": "playwright test --trace on",
     "test:e2e:slow": "cross-env PLAYWRIGHT_SLOW_MO=1000 playwright test --headed",
-    "test:e2e:show": "playwright show-report"
+    "test:e2e:show": "playwright show-report",
+    "test:cypress:dev": "cypress open"
   },
   "author": "Damir Rysaev <freepad@ya.ru>",
   "keywords": [],
